@@ -1,0 +1,113 @@
+.banner-image {
+  background-color: #f4eeed;
+  background-size: cover;
+}
+.number {
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: #c9998b;
+}
+.menu {
+  font-family: "Bree Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #c9998b !important;
+}
+
+li {
+  margin-left: 20px !important;
+}
+.bg-dark {
+  background-color: #f4eeed !important;
+}
+.line::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background: #efd9d1;
+  transition: width 0.3s;
+}
+.line:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.svg-wave {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23333' d='M0 3.5c5 0 5-3 10-3s5 3 10 3 5-3 10-3 5 3 10 3'/%3E%3C/svg%3E")
+    repeat-x 0 100%;
+  background-size: 20px auto;
+}
+.main-content {
+  margin-top: 20vw;
+  margin-left: 10vw;
+}
+.hi {
+  font-family: Cookie;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  color: #aa7070;
+  margin: 0;
+  padding: 0;
+}
+.typing-demo {
+  display: inline-flex;
+  width: 5ch;
+  animation: typing 1.5s steps(6), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.carla {
+  font-family: "Ramabhadra", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  color: #aa7070;
+  margin: 0;
+  padding: 0;
+}
+.aspiring {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #deaa9a;
+}
+.margin-line {
+  margin-bottom: -40px;
+  padding: 0;
+}
+.photo {
+  float: right;
+  margin-top: 20vh;
+}
+.footer {
+  width: 100vw;
+  height: 30px;
+  background-color: #c9998b;
+}
+.footer p {
+  font-family: "Bree Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f4eeed;
+}
