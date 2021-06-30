@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
 .banner-image {
   background-color: #f4eeed;
   background-size: cover;
@@ -20,7 +26,7 @@
 li {
   margin-left: 20px !important;
 }
-.bg-dark {
+.bg-color {
   background-color: #f4eeed !important;
 }
 .line::after {
@@ -40,9 +46,10 @@ li {
     repeat-x 0 100%;
   background-size: 20px auto;
 }
-.main-content {
+.main-content { 
   margin-top: 20vw;
-  margin-left: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 .hi {
   font-family: Cookie;
@@ -60,7 +67,7 @@ li {
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-size: 2em;
+  font-size: 0.2em;
 }
 
 @keyframes typing {
@@ -96,12 +103,14 @@ li {
 }
 .photo {
   float: right;
-  margin-top: 20vh;
+ 
 }
 .footer {
   width: 100vw;
   height: 30px;
   background-color: #c9998b;
+  position: absolute;
+  bottom: 0;
 }
 .footer p {
   font-family: "Bree Serif", serif;
@@ -110,4 +119,18 @@ li {
   font-size: 18px;
   line-height: 24px;
   color: #f4eeed;
+}
+.con{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 100vw;
+}
+.text{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
 }
