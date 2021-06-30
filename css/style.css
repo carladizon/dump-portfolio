@@ -103,6 +103,12 @@ li {
 }
 .photo {
   float: right;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ 
  
 }
 .footer {
@@ -125,12 +131,14 @@ li {
   margin-left: 10%;
   margin-right: 10%;
   width: 100vw;
+  height: 50vh;
 }
 .text{
-  margin: 0;
+  width: 100vw;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+ 
 
 }
